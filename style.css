@@ -1,0 +1,91 @@
+/* Page styling */
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #fff8f0;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: darkred;
+}
+
+/* Navigation bar */
+.nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: yellow;
+}
+
+/* Image styling */
+.img-box {
+    text-align: center;
+    margin: 10px;
+}
+
+.img-box img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* About text */
+.about {
+    text-align: center;
+    margin: 10px 50px;
+}
+
+/* Menu list */
+.menu {
+    width: 200px;
+    margin: auto;
+}
+
+/* Table */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Form */
+.form-box {
+    width: 250px;
+    margin: auto;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Map */
+.map iframe {
+    width: 80%;
+    height: 250px;
+    display: block;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
